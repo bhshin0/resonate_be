@@ -4,6 +4,7 @@ from langchain.prompts import HumanMessagePromptTemplate, ChatPromptTemplate
 from langchain.document_loaders import TextLoader
 from langchain.text_splitter import CharacterTextSplitter
 from transformers import pipeline
+import json
 from dotenv import load_dotenv
 
 load_dotenv()
@@ -84,6 +85,13 @@ class EmotionJournal:
             return response['text']
         else:
             return "Invalid entry key."
+        
+    def to_json(self):
+        return json.dumps(self.emotion_dict, indent=4)
+    
+    def save_to_json_file(self, file_name):
+        with open(file_name, 'w') as json_file:
+            json.dump(self.emotion_dict, json_file, indent=4)
 
 # Initialize the EmotionJournal instance
 emotion_journal = EmotionJournal("journal.txt")
@@ -95,5 +103,6 @@ emotion_journal = EmotionJournal("journal.txt")
 entry_key = "Entry_1"  # Example entry key
 prompt_text = "is the value of happiness for the following journal entry, please give insights"
 insights = emotion_journal.get_insights_happy(entry_key, prompt_text, 'joy')
+emotion_journal.save_to_json_file('test')
 print(f"Insights for {entry_key}: {insights}")
 #print(emotion_journal.emotion_dict)

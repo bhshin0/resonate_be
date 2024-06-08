@@ -80,7 +80,7 @@ class EmotionJournal:
             journal_entry = self.emotion_dict[entry_key]['text']
             journal_entry_happy = self.emotion_dict[entry_key]['emotions'][emotion]
             print(journal_entry_happy)
-            response = self.llm_chain({"content": prompt_text })
+            response = self.llm_chain({"content": str(journal_entry_happy) + prompt_text + journal_entry})
             return response['text']
         else:
             return "Invalid entry key."
@@ -93,6 +93,7 @@ emotion_journal = EmotionJournal("journal.txt")
 
 # Get insights from a specific journal entry
 entry_key = "Entry_1"  # Example entry key
-prompt_text = "what number is this "
+prompt_text = "is the value of happiness for the following journal entry, please give insights"
 insights = emotion_journal.get_insights_happy(entry_key, prompt_text, 'joy')
 print(f"Insights for {entry_key}: {insights}")
+#print(emotion_journal.emotion_dict)

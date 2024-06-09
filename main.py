@@ -8,7 +8,7 @@ from transformers import pipeline
 import json
 from dotenv import load_dotenv
 
-from journal import journal_str
+from journal import journal_str, journal_str_long
 
 load_dotenv()
 
@@ -54,7 +54,7 @@ class EmotionClassifier:
         return {result['label']: result['score'] for result in results[0]}
 
 class EmotionJournal:
-    def __init__(self, file_path, chunk_size=500, chunk_overlap=0):
+    def __init__(self, file_path, chunk_size=1000, chunk_overlap=0):
         self.journal_processor = JournalProcessor(file_path, chunk_size, chunk_overlap)
         self.emotion_classifier = EmotionClassifier()
         self.chat = ChatOpenAI()
@@ -137,7 +137,7 @@ class EmotionJournal:
             json.dump(self.emotion_dict, json_file, indent=4)
 
 # Initialize the EmotionJournal instance
-emotion_journal = EmotionJournal(journal_str)
+emotion_journal = EmotionJournal(journal_str_long)
 
 # Display the emotion dictionary
 #emotion_journal.display_emotion_dictionary()

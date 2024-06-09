@@ -1,53 +1,41 @@
 {
     "Entry_1": {
-        "text": "**Day 1: Monday**\n\nI'm so excited to start this new chapter in my life! I've been living in this city for a week now, and I'm still trying to get used to the new rhythm. I finally got my new apartment all sorted out and moved in all my stuff. The complex is pretty nice, but I'm still getting used to the noise from the highway outside.\n\nI started my new job at a tech firm downtown. The commute is a bit of a pain, but the views of the city from the train are worth it. My job as a software engineer is pretty demanding, but I'm excited to learn and take on new challenges.\nAfter work, I stopped by the grocery store to grab some essentials. I'm still trying to figure out the city's public transportation system, and it took me a while to get back to my place. I ended up walking the last mile or so, which was nice but also exhausting.",
+        "text": "**Day 1: Monday**\nI'm so excited to start this new chapter in my life! I've been living in this city for a week now, and I'm still trying to get used to the new rhythm. I finally got my new apartment all sorted out and moved in all my stuff. The complex is pretty nice, but I'm still getting used to the noise from the highway outside.\n\nI started my new job at a tech firm downtown. The commute is a bit of a pain, but the views of the city from the train are worth it. My job as a software engineer is pretty demanding, but I'm excited to learn and take on new challenges.\nAfter work, I stopped by the grocery store to grab some essentials. I'm still trying to figure out the city's public transportation system, and it took me a while to get back to my place. I ended up walking the last mile or so, which was nice but also exhausting.",
         "emotions": {
-            "anger": 0.005298553965985775,
-            "disgust": 0.002057853154838085,
-            "fear": 0.00318217184394598,
-            "joy": 0.9085477590560913,
-            "neutral": 0.03461937606334686,
-            "sadness": 0.013006423600018024,
-            "surprise": 0.03328782320022583
+            "anger": 0.005251050461083651,
+            "disgust": 0.001956455409526825,
+            "fear": 0.0030972615350037813,
+            "joy": 0.9117138385772705,
+            "neutral": 0.03215397894382477,
+            "sadness": 0.01169698964804411,
+            "surprise": 0.03413044661283493
         }
     },
     "Entry_2": {
-        "text": "**Day 2: Tuesday**",
+        "text": "**Day 2: Tuesday**\nToday was a struggle. I woke up late and had to rush to get ready for work. I was running so late that I had to skip breakfast and just grab a coffee on the go. My code didn't quite work as planned, and I had to spend some extra time debugging.\nAfter work, I finally got a chance to explore my new neighborhood. I walked around and found some cute cafes and shops. I stumbled upon a small bookstore and browsed through their selection for a while. It felt nice to take a break from the hustle and bustle of city life.",
         "emotions": {
-            "anger": 0.020298583433032036,
-            "disgust": 0.013624406419694424,
-            "fear": 0.008208504877984524,
-            "joy": 0.018416499719023705,
-            "neutral": 0.8602345585823059,
-            "sadness": 0.025154676288366318,
-            "surprise": 0.05406275391578674
+            "anger": 0.007941254414618015,
+            "disgust": 0.007369397673755884,
+            "fear": 0.010849889367818832,
+            "joy": 0.5494994521141052,
+            "neutral": 0.1425074189901352,
+            "sadness": 0.25858283042907715,
+            "surprise": 0.02324974723160267
         }
     },
     "Entry_3": {
-        "text": "Today was a struggle. I woke up late and had to rush to get ready for work. I was running so late that I had to skip breakfast and just grab a coffee on the go. My code didn't quite work as planned, and I had to spend some extra time debugging.\nAfter work, I finally got a chance to explore my new neighborhood. I walked around and found some cute cafes and shops. I stumbled upon a small bookstore and browsed through their selection for a while. It felt nice to take a break from the hustle and bustle of city life.",
+        "text": "**Day 3: Wednesday**\nI had a meeting with my team today, and it was awesome to finally meet everyone in person. We went over the project details and discussed our goals for the next quarter. I'm feeling a bit overwhelmed still, but my coworkers are super helpful and supportive.\n\nOn my way home, I stopped by a nearby park and did a quick 20",
         "emotions": {
-            "anger": 0.0035030634608119726,
-            "disgust": 0.00573007483035326,
-            "fear": 0.009432918392121792,
-            "joy": 0.7894219756126404,
-            "neutral": 0.06938450038433075,
-            "sadness": 0.11102057993412018,
-            "surprise": 0.011506945826113224
+            "anger": 0.005735471844673157,
+            "disgust": 0.0019401584286242723,
+            "fear": 0.0892190933227539,
+            "joy": 0.004511033650487661,
+            "neutral": 0.006926125846803188,
+            "sadness": 0.0015526796923950315,
+            "surprise": 0.8901154398918152
         }
     },
     "Entry_4": {
-        "text": "**Day 3: Wednesday**\n\nI had a meeting with my team today, and it was awesome to finally meet everyone in person. We went over the project details and discussed our goals for the next quarter. I'm feeling a bit overwhelmed still, but my coworkers are super helpful and supportive.\n\nOn my way home, I stopped by a nearby park and did a quick 20",
-        "emotions": {
-            "anger": 0.005584259517490864,
-            "disgust": 0.001988229574635625,
-            "fear": 0.09659632295370102,
-            "joy": 0.0048202998004853725,
-            "neutral": 0.0072393398731946945,
-            "sadness": 0.0015605101361870766,
-            "surprise": 0.8822110891342163
-        }
-    },
-    "Entry_5": {
         "text": "minute workout to clear my head. It's been tough adjusting to my new surrounding without my usual fitness routine. I need to get back into the swing of things.",
         "emotions": {
             "anger": 0.01668481156229973,
@@ -59,76 +47,76 @@
             "surprise": 0.027264714241027832
         }
     },
-    "Entry_6": {
-        "text": "**Day 4: Thursday**\n\nToday was a great day! I managed to tackle that pesky bug in my code, and my team leader was impressed. We celebrated with happy hour drinks after work, and I got to know my colleagues better.\n\nOn my walk home, I stumbled upon a small concert happening in the park. I ended up attending and ended up having an amazing time. The music was incredible, and I even got to meet some new people.",
+    "Entry_5": {
+        "text": "**Day 4: Thursday**\nToday was a great day! I managed to tackle that pesky bug in my code, and my team leader was impressed. We celebrated with happy hour drinks after work, and I got to know my colleagues better.\n\nOn my walk home, I stumbled upon a small concert happening in the park. I ended up attending and ended up having an amazing time. The music was incredible, and I even got to meet some new people.",
         "emotions": {
-            "anger": 0.007290181703865528,
-            "disgust": 0.0023488886654376984,
-            "fear": 0.0012572353007271886,
-            "joy": 0.6830000281333923,
-            "neutral": 0.08603952825069427,
-            "sadness": 0.003674018895253539,
-            "surprise": 0.21639013290405273
+            "anger": 0.007925811223685741,
+            "disgust": 0.0024130912497639656,
+            "fear": 0.0013571524759754539,
+            "joy": 0.6315099000930786,
+            "neutral": 0.09335920214653015,
+            "sadness": 0.0037926798686385155,
+            "surprise": 0.2596421241760254
+        }
+    },
+    "Entry_6": {
+        "text": "**Day 5: Friday**\nUgh, today was a tough day. I spent most of my day stuck in a meeting that could've been an email. I walked out of the meeting feeling frustrated and demotivated. To make matters worse, I got caught in a sudden rainstorm on my way home.\n\nOn a brighter note, I finally got my internet set up, so I can relax and unwind in the evenings now.\n\n-**Day 6: Saturday**\nI slept in and spent the morning lounging in bed, catching up on some binge",
+        "emotions": {
+            "anger": 0.8814648389816284,
+            "disgust": 0.01451079361140728,
+            "fear": 0.0010401909239590168,
+            "joy": 0.0023626661859452724,
+            "neutral": 0.01014053262770176,
+            "sadness": 0.0868258848786354,
+            "surprise": 0.003655113745480776
         }
     },
     "Entry_7": {
-        "text": "**Day 5: Friday**\n\nUgh, today was a tough day. I spent most of my day stuck in a meeting that could've been an email. I walked out of the meeting feeling frustrated and demotivated. To make matters worse, I got caught in a sudden rainstorm on my way home.\n\nOn a brighter note, I finally got my internet set up, so I can relax and unwind in the evenings now.\n\n-**Day 6: Saturday**\n\nI slept in and spent the morning lounging in bed, catching up on some binge",
+        "text": "watching and reading. It felt nice to take it easy after a long week of work. In the afternoon, I went on a hike with some new acquaintances from the gym. We had a great chat and got some exercise.\n\n-**Day 7: Sunday**\nToday was a bit of a lazy day. I ran some errands, got my laundry done, and reorganized my living room. It feels nice to have my space tidied up. In the evening, I tried out a new recipe and had a nice quiet evening at home.",
         "emotions": {
-            "anger": 0.8994571566581726,
-            "disgust": 0.015617324970662594,
-            "fear": 0.001059344969689846,
-            "joy": 0.002221141941845417,
-            "neutral": 0.009848475456237793,
-            "sadness": 0.06832969188690186,
-            "surprise": 0.003466852707788348
+            "anger": 0.0016730688512325287,
+            "disgust": 0.002413726644590497,
+            "fear": 0.00039018350071273744,
+            "joy": 0.9327336549758911,
+            "neutral": 0.03660464286804199,
+            "sadness": 0.02068728394806385,
+            "surprise": 0.005497365724295378
         }
     },
     "Entry_8": {
-        "text": "watching and reading. It felt nice to take it easy after a long week of work. In the afternoon, I went on a hike with some new acquaintances from the gym. We had a great chat and got some exercise.\n\n-**Day 7: Sunday**\n\nToday was a bit of a lazy day. I ran some errands, got my laundry done, and reorganized my living room. It feels nice to have my space tidied up. In the evening, I tried out a new recipe and had a nice quiet evening at home.",
+        "text": "**Day 8: Monday**\nI'm back to work after the weekend, feeling refreshed but still adjusting to the daily grind. Today was a normal day \u2013 meetings, coding, and team lunches. Nothing too exciting, but I'm grateful for the routine.\n\nOn my way home, I stopped by a nearby cafe and met up with a friend from college who's in the city. It was great catching up and we made plans to grab dinner soon.",
         "emotions": {
-            "anger": 0.0016790884546935558,
-            "disgust": 0.0023383854422718287,
-            "fear": 0.0003715482889674604,
-            "joy": 0.9365953803062439,
-            "neutral": 0.03503129258751869,
-            "sadness": 0.01861872337758541,
-            "surprise": 0.005365703720599413
+            "anger": 0.0015344563871622086,
+            "disgust": 0.0014171230141073465,
+            "fear": 0.000376140174921602,
+            "joy": 0.942871630191803,
+            "neutral": 0.0326138474047184,
+            "sadness": 0.01087922416627407,
+            "surprise": 0.010307627730071545
         }
     },
     "Entry_9": {
-        "text": "**Day 8: Monday**\n\nI'm back to work after the weekend, feeling refreshed but still adjusting to the daily grind. Today was a normal day \u2013 meetings, coding, and team lunches. Nothing too exciting, but I'm grateful for the routine.\n\nOn my way home, I stopped by a nearby cafe and met up with a friend from college who's in the city. It was great catching up and we made plans to grab dinner soon.",
+        "text": "**Day 9: Tuesday**\nToday was a tough day. I had a disagreement with my team lead about a project feature, and I felt pretty deflated. I worked on my code for a bit, but I wasn't in the best mindset. \n\nAfter work, I decided to take a long bath and listened to some calming music to unwind. Sometimes, it's okay to take a step back and recharge.",
         "emotions": {
-            "anger": 0.0015679111238569021,
-            "disgust": 0.0015655666356906295,
-            "fear": 0.00038096477510407567,
-            "joy": 0.9408982992172241,
-            "neutral": 0.03307029604911804,
-            "sadness": 0.012340828776359558,
-            "surprise": 0.010176174342632294
+            "anger": 0.1033787652850151,
+            "disgust": 0.10870734602212906,
+            "fear": 0.04147522151470184,
+            "joy": 0.013400421477854252,
+            "neutral": 0.14097876846790314,
+            "sadness": 0.5861232876777649,
+            "surprise": 0.005936179310083389
         }
     },
     "Entry_10": {
-        "text": "**Day 9: Tuesday**\n\nToday was a tough day. I had a disagreement with my team lead about a project feature, and I felt pretty deflated. I worked on my code for a bit, but I wasn't in the best mindset. \n\nAfter work, I decided to take a long bath and listened to some calming music to unwind. Sometimes, it's okay to take a step back and recharge.",
+        "text": "**Day 10: Wednesday**\nI'm feeling more myself today. I tackled the code issue from yesterday and got some positive feedback from my team. We had a productive meeting and made some exciting plans for the next project phase.\n\nOn my walk home, I stumbled upon a street performer doing an amazing guitar solo. I ended up watching for 20 minutes, mesmerized by the music.",
         "emotions": {
-            "anger": 0.10558313131332397,
-            "disgust": 0.11023865640163422,
-            "fear": 0.046029262244701385,
-            "joy": 0.013649015687406063,
-            "neutral": 0.13494017720222473,
-            "sadness": 0.5832995176315308,
-            "surprise": 0.006260221358388662
-        }
-    },
-    "Entry_11": {
-        "text": "**Day 10: Wednesday**\n\nI'm feeling more myself today. I tackled the code issue from yesterday and got some positive feedback from my team. We had a productive meeting and made some exciting plans for the next project phase.\n\nOn my walk home, I stumbled upon a street performer doing an amazing guitar solo. I ended up watching for 20 minutes, mesmerized by the music.",
-        "emotions": {
-            "anger": 0.0015946265775710344,
-            "disgust": 0.0011523412540555,
-            "fear": 0.0013962729135528207,
-            "joy": 0.9677019715309143,
-            "neutral": 0.014003396965563297,
-            "sadness": 0.0015848794719204307,
-            "surprise": 0.012566403485834599
+            "anger": 0.001773373456671834,
+            "disgust": 0.0012527934741228819,
+            "fear": 0.0014111927011981606,
+            "joy": 0.9600294828414917,
+            "neutral": 0.018548863008618355,
+            "sadness": 0.0018552399706095457,
+            "surprise": 0.01512910146266222
         }
     }
 }

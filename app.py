@@ -1,18 +1,24 @@
-from fastapi import FastAPI, HTTPException
-from main import EmotionJournal 
-import requests
+from flask import Flask, request, jsonify
+from main import EmotionJournal
+from journal import journal_str
 
-app = FastAPI()
+app = Flask(__name__)
 
-@app.post("/process_journal")
-async def process_journal(journal_entry: str):
-    # Send the journal entry to your friend's main.py for processing
-    print(journal_entry)
-    emotion_journal = EmotionJournal(journal_entry)
+# Define the function to process the input string
+def process_string(input_string):
+    journ = EmotionJournal(journal_str)
+    return journ.to_json()
+
+@app.route('/process', methods=['POST'])
+def process():
+    data = request.json
+    input_string = data.get('input_string')
     
-    # Return the processed JSON response from your friend
-    return emotion_journal.to_json
+    if not input_string:
+        return jsonify({'error': 'No input string provided'}), 400
+    
+    result = process_string(input_string)
+    return jsonify(result)
 
-if __name__ == "__main__":
-    import uvicorn
-    uvicorn.run(app, host="0.0.0.0", port=8000)
+if __name__ == '__main__':
+    app.run(port=5000)

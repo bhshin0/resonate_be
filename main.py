@@ -137,7 +137,7 @@ class EmotionJournal:
             json.dump(self.emotion_dict, json_file, indent=4)
 
 # Initialize the EmotionJournal instance
-emotion_journal = EmotionJournal(journal_str_long)
+emotion_journal = EmotionJournal(journal_str)
 
 # Display the emotion dictionary
 #emotion_journal.display_emotion_dictionary()
